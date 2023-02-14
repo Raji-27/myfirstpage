@@ -1,0 +1,337 @@
+.navhead{
+    padding:25px;
+    background-color: lightpink;
+   text-align: right;
+
+}
+.navhead a{
+    padding:40px;
+    color:purple;
+    font-size: 20px;
+    font-family: Georgia;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+.navhead img{
+  height:10vh;
+    width: 150px;
+    float: left;
+  padding-left: 60px;
+
+}
+.navhead a:hover{
+    color: rgb(255, 0, 212);
+    text-decoration: none;
+}
+.navhead input{
+width:50%;
+padding-right: 25px;
+background-color:lightpink;
+border:2px solid purple;
+color:purple;
+}
+.navb{
+ text-align: center;
+ padding: 25px;
+ padding-left: 40px;
+ padding-right: 40px;
+ background-color: purple;
+}
+*{
+    margin:0;
+}
+ .bg{
+  background-color: lavenderblush;
+}
+.navb a{
+    text-decoration: none;
+    padding: 40px;
+    padding-left: 50px;
+   text-align: center;
+    color:lightpink;
+    font-family:Georgia;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.navb a:hover{
+    text-decoration: none;
+    color:yellow;  
+}
+.ofrimg img{
+    margin: 30px;
+   padding:35px;
+   padding-right: 30px;
+    height: 70vh;
+    width:95%;
+   align-content: center;
+} 
+.ofrimg img:hover{
+  box-shadow: 2px 2px 20px purple;
+}
+  .items{
+    margin:10px;
+    display: flex;
+    align-content: center;
+  }
+  .items h2{
+    font-family:Georgia;
+    text-align: center;
+  }
+  .items span{
+    text-align: center;
+    font-size: x-large;
+    font-family: Georgia;
+  }
+  .items p{
+    text-align: center;
+    font-weight:500; 
+    font-family: Georgia;
+  }
+  .items small{
+    text-align: center;
+    font-family: Georgia;
+  }
+  #abc a{
+    text-align: center;
+    text-decoration: none;
+    background-color: purple;
+    color:lightpink;
+    font-weight: bolder;
+    border:2px solid black;
+   padding:10px;
+  }
+  #abc a:hover{
+    background-color: darkcyan;
+    color:black;
+    border:2px solid black;
+  }
+  .items .item1 img{
+      width: 80%;
+      height: 300px;
+      margin:50px;
+  }
+  .items .but {
+    margin:60px;
+    padding-top: 60px;
+    size:30px;
+  }
+  .items .but a{
+    color:purple;
+  }
+  .matress{
+    padding-top: 100px;
+    display:flex;
+    margin:10px;
+  }
+  .matress  h2{
+    margin:20px;
+    font-family:Georgia;
+    text-align: center;
+    color:black;
+      }
+  .matress p{
+    text-align: center;
+    font-weight:500;
+  font-family: Georgia; }
+
+  .matress .m1 img{
+    width: 80%;
+    height: 300px;
+    margin:10px;
+  }
+  .matress img:hover{
+    box-shadow: 0px 3px 65px 6px rgba(0,0,0,.15);
+  }
+  .items img:hover{
+    box-shadow: 0px 3px 65px 6px rgba(0,0,0,.15);
+  }
+
+  .matress span{
+    text-align: center;
+    font-size: x-large;
+  }
+  .matress .bu {
+    margin:60px;
+    padding-top: 60px;
+    size:30px;
+  }
+  .matress .bu a{
+    color:purple;
+  }
+  .mycar{
+    padding-left: 150px;
+    width:90%;
+    height:90%;
+    align-content: center;
+    overflow: hidden;
+  }
+  .mycar .item img{
+    width:100%;
+    height:100%
+  } 
+  .mycar h2{
+    padding-top: 30px;
+    font-weight: bold;
+    font-family: Georgia;
+    text-align: center;
+    color:purple;
+    text-decoration: underline;
+
+  }
+   .vid{
+    background-color: lavenderblush;
+  }
+  .vid iframe{
+    align-items: center;
+    margin-left:250px;
+    width:60%;
+    height:50vh;
+    border:5px solid purple;
+  }
+.vid_head h3{
+text-align: center;
+padding-left:50px;
+text-decoration: underline;
+font-family: Georgia;
+color:purple;
+font-weight: bolder;
+background-color: lavenderblush;
+  }
+  footer{
+    background-color: purple;
+    margin:0px;
+    height:78vh;
+  }
+  .foot{
+    display:flex;
+    padding-left: 50px;
+    margin:30px;
+  }
+  .foot .about h3{
+    padding-top: 20px;
+    margin:15px;
+    font-size: larger;
+    font-size:30px;
+    color:lemonchiffon;
+    text-decoration: underline;
+    font-family: Georgia;
+  }
+   .foot .about a{
+ font-weight:normal;
+ font-size: 30px;
+ font-family: Georgia;
+ align-content: center;
+ margin:30x;
+ color:lightpink;
+  }
+  .foot .about ul{
+    list-style-type: none;
+  }
+  .pages{
+    padding-left: 140px;
+  }
+  .foot .pages h3{
+    padding-top: 20px;
+     margin:15px;
+     font-size: larger;
+     font-size:30px;
+     color:lemonchiffon;
+     text-decoration: underline;
+     font-family: Georgia;
+     text-align: center;
+   }
+   .foot .pages a{
+    font-weight:normal;
+    font-size: 30px;
+    font-family: Georgia;
+    align-content: left;
+    margin:30x;
+    color:lightpink;
+   }
+   .foot .pages ul{
+    list-style-type: none;
+  }.foot .contact ul{
+    list-style-type: none;
+  }
+  .contact{
+    padding-left: 150px;
+  }
+  .foot .contact h3{
+    padding-top: 20px;
+     margin:15px;
+     font-size: larger;
+     font-size:30px;
+     color:lemonchiffon;
+     text-decoration: underline;
+     font-family: Georgia;
+     text-align: center;
+   }
+   .foot .contact a{
+    font-weight:normal;
+    font-size: 30px;
+    font-family: Georgia;
+    align-content: center;
+    margin:30x;
+    color:lightpink;
+   }
+   .foot .contact ul{
+    list-style-type: none;
+  }
+  .follow{
+    padding-left: 150px;
+  }
+  .foot .follow h3{
+    padding-top: 20px;
+     margin:15px;
+     font-size: larger;
+     font-size:30px;
+     color:lemonchiffon;
+     text-decoration: underline;
+     font-family: Georgia;
+     text-align: left;
+   }
+   .foot .follow a{
+    font-weight:normal;
+    font-size: 30px;
+    font-family: Georgia;
+    align-content: center;
+    margin:30x;
+    color:lightpink;
+   }
+   .foot .follow ul{
+    list-style-type: none;
+  }
+.signup{
+  text-align: center;
+  align-items: center;
+  font-size:30px;
+  font-family:Georgia;
+  line-height:25px;
+  padding-left: 50px;
+}
+.signup a{
+  color:lightpink;
+  padding-inline: 2px;
+}
+.signup a:hover{
+  color:lemonchiffon;
+  text-decoration: underline;
+}
+.signup p{
+  color:lightpink;
+} 
+.final{
+padding: 30px;
+text-align: center ;
+font-family: Georgia;
+font-size: 30px;
+color:lightpink;
+line-height:55px;
+}
+.final img{
+  align-items: center;
+  height:10vh;
+  width: 150px;
+padding-left: 60px;
+}
